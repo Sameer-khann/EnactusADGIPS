@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 import LandingPage from '../src/Pages/LandingPage.js';
 import AboutPage from '../src/Pages/AboutPage.js';
@@ -16,14 +15,13 @@ function App() {
     <>
     <Router>
       <Navbar/>
-        <ScrollToTop/>
+        {/* <ScrollToTop/> */}
         <Routes>
-          <Route path="/" element={<LandingPage/>} />
+          {/* <Route path="/" element={<LandingPage/>} />
           <Route path="/AboutPage" element={<AboutPage/>} />
           <Route path="/EventPage" element={<EventPage />} />
-          <Route path="/TeamPage" element={<TeamPage />} />
-          <Route path="/ProjectPage" element={<ProjectPage/>} />
-          <Route path="/Attendance" element={<Attendance/>}/>
+          <Route path="/TeamPage" element={<TeamPage />} /> */}
+          <Route path="/" element={<ProjectPage/>} />
         </Routes>
         <Footer/>
       </Router>
