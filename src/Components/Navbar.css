@@ -1,31 +1,53 @@
 .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 20px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .nav-links li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .nav-links li:last-child {
-    margin-right: 0;
-  }
-  
-  .nav-links li a {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.852);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logoborder {
+    height: 90px;
+    width: 16%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    right: 7%;
+}
+.logo1 {
+    height: 100%;
+    width: 50%;
+}
+.logo2 {
+    height: 100%;
+    width: 50%;
+}
+.logo1 {
+    background-image: url("../img/img2enactus.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo2 {
+    background-image: url("../img/img1enactus.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 10%;
+}
+.content a {
     text-decoration: none;
-    color: #fff;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links li a:hover {
-    color: #ff9900; /* Change color on hover */
-  }
-  
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+.content a:hover {
+    color: grey;
+}
