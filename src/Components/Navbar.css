@@ -1,6 +1,6 @@
 .navbar {
     height: 100px;
-    width: 100%;
+    /* width: 100%; */
     background-color: rgba(0, 0, 0, 0.852);
     display: flex;
     justify-content: space-evenly;

@@ -1,35 +1,45 @@
-.hero-section {
+
+  .hero-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.484)), url('../img/img1.jpg');
     background-size: cover;
     background-position: center;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 0;
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center; /* Center align text */
     height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    flex-direction: column;
   }
   
   .hero-section h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 5rem; /* Change this to desired text color */
   }
   
   .hero-section p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+    color: #e5e5e5; /* Change this to desired text color */
   }
   
-  .hero-section button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #ff9900;
-    color: #fff;
+  .buttom-hero {
+    margin-top: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;/* Adjust margin as needed */
+  }
+  
+  .buttom-hero  {
+    background-color: #007bff; /* Change this to desired button background color */
+    color: #fff; /* Change this to desired button text color */
     border: none;
-    border-radius: 5px;
+    width: 200px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
     cursor: pointer;
-    transition: background-color 0.3s ease;
   }
   
-  .hero-section button:hover {
-    background-color: #e68a00;
+  .buttom-hero :hover {
+    background-color: #0056b3; /* Change this to desired button hover background color */
   }
   
