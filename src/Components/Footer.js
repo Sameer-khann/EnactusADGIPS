@@ -5,19 +5,26 @@ export default function Footer() {
     return (
         <div>
             <div class="footer">
+                <div class="second">
+                    <div class="main-logo1"></div>
+                    <div class="main-logo2"></div>
+                </div>
                 <div class="first">
                     <div class="heading">Connect With Us</div>
                     <div class="socials">
                         <a
                             href="https://www.linkedin.com/company/enactus-adgitm"
+                            target="_main"
                             class="firstlogo"
                         ></a>
                         <a
                             href="https://www.instagram.com/enactus.adgitm/"
+                            target="_main"
                             class="secondlogo"
                         ></a>
                         <a
                             href="https://twitter.com/adgitmenactus"
+                            target="_main"
                             class="thirdlogo"
                         ></a>
                     </div>
@@ -31,13 +38,9 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div class="second">
-                    <div class="main-logo1"></div>
-                    <div class="main-logo2"></div>
-                </div>
             </div>
             <div class="copyright">
-                <div class="l1">Enactus ADGITM © 2020</div>
+                <div class="l1">Enactus ADGITM © 2024</div>
                 <div class="l2">All Rights Reserved</div>
             </div>
         </div>
