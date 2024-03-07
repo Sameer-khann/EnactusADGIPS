@@ -149,6 +149,7 @@
     width: 500px;
     padding: 5px;
     color: white;
+    color: #0B4619;
     margin-left: -240px;
     text-align: center;
     transition: margin-left 0.5s ease; /* Add transition for smooth movement */
@@ -173,4 +174,13 @@
 
 .teamDiscription:hover .imgSectionOFTeam {
     margin-right: 0px;
+}
+
+.endcurve{
+    background-image: url(../img/end.svg);
+    height: 240px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
 }

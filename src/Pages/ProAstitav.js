@@ -64,6 +64,7 @@ export default function ProAstitav() {
           </div>
         </div>
       </div>
+      <div className="endcurve"></div>
 
 
 

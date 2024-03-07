@@ -2,6 +2,7 @@ import React from 'react'
 import './ProjectPage.css';
 import OnGoingPro from '../Components/OnGoingPro';
 import ProAstitav from './ProAstitav';
+import ProMritkala from './ProMritkala';
 
 export default function ProjectPage() {
   return (
@@ -17,6 +18,7 @@ export default function ProjectPage() {
       </div>
       <OnGoingPro/>
       <ProAstitav/>
+      <ProMritkala/>
     </div>
   )
 }
