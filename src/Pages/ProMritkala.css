@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Rock+Salt&display=swap');
+
 .proMritkala {
     display: flex;
     align-items: center;
@@ -48,11 +50,60 @@
 
 
 .imgSectionMritkala{
-    background-image: url(../img/TulsiPot1.413c2e69.png);
+    background-image:linear-gradient(#0b46193b,#0b461942), url(../img/TulsiPot1.413c2e69.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 700px;
+    background-attachment: fixed;
+    height: 500px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.imgSectionMritkala h1{
+    font-family: "Protest Revolution", sans-serif;
+    text-shadow: 8px 1px 10px rgb(0, 0, 0);
+    font-size:9rem;
+    color: #FFCC1D;
+}
+
+.productSectionMritkala{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+
+.productSectionMritkala h1{
+    color: #0B4619;
+}
+
+.ProductImgMritkala{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 700px;
+    height: 300px;
+    border-radius: 2rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    background-color: #FFCC1D;
+    border-top: 5px solid #0B4619;
+    border-left: 5px solid #0B4619;
+    border-right: 5px solid #0B4619;
+}
+
+.ProductImgMritkala img {
+    width: 400px;
+    height: 300px;
+    transition: transform 0.9s ease; /* Smooth transition for the transform property */
+}
+
+.ProductImgMritkala img:hover{
+    transform: scale(1.6);
+    width: 400px; /* Apply the scale transformation on hover */
 }

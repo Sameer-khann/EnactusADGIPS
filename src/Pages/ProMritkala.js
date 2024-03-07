@@ -2,6 +2,7 @@ import React from 'react'
 import './ProMritkala.css';
 import mrit from "../img/MritkalaLogo.png"
 import aboutImg from "../img/ShallowFloatingBowl.a0c18316.png"
+import projectImg from "../img/product.png"
 
 
 export default function ProMritkala() {
@@ -22,7 +23,13 @@ export default function ProMritkala() {
                 </div>
             </div>
             <div className="imgSectionMritkala">
-               
+               <h1>Mritkala</h1>
+            </div>
+            <div className="productSectionMritkala">
+                <h1>FEATURED PRODUCT</h1>
+                <div className="ProductImgMritkala">
+                    <img src={projectImg} alt="" />
+                </div>
 
             </div>
         </>
