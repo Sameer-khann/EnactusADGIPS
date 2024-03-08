@@ -74,12 +74,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+ 
   
 
 }
 
 .productSectionMritkala h1{
     color: #0B4619;
+}
+.productSectionMritkala p{
+    color: #0B4619;
+    padding: 30px;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .ProductImgMritkala{
@@ -89,12 +96,7 @@
     padding: 30px;
     width: 700px;
     height: 300px;
-    border-radius: 2rem 2rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-    background-color: #FFCC1D;
-    border-top: 5px solid #0B4619;
-    border-left: 5px solid #0B4619;
-    border-right: 5px solid #0B4619;
+    background-color: #F3D6C5;
 }
 
 .ProductImgMritkala img {
@@ -104,6 +106,17 @@
 }
 
 .ProductImgMritkala img:hover{
-    transform: scale(1.6);
+    transform: scale(1.4);
     width: 400px; /* Apply the scale transformation on hover */
+}
+
+.linkMritkala{
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.linkMritkala:hover{
+    color: red;
+    cursor: pointer;
+    font-weight: 500;
 }

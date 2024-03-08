@@ -23,13 +23,15 @@ export default function ProMritkala() {
                 </div>
             </div>
             <div className="imgSectionMritkala">
-               <h1>Mritkala</h1>
+                <h1>Mritkala</h1>
             </div>
             <div className="productSectionMritkala">
                 <h1>FEATURED PRODUCT</h1>
                 <div className="ProductImgMritkala">
                     <img src={projectImg} alt="" />
                 </div>
+                <p>A mug that is stylish and elegant at the same time. This exotic piece will bring a touch of elegance to your existing crockery collection and a delight to your tea time. It is dishwater friendly and comes in vibrant colours.</p>
+                <div className="linkMritkala">CHECK OUT OTHER PRODUCTS &#10132;</div>
 
             </div>
         </>
