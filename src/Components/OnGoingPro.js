@@ -19,9 +19,9 @@ export default function OnGoingPro() {
             <div className="OngoingProject">
                 <h1>On Going Projects</h1>
 
+            
 
-
-                <Swiper
+                {/* <Swiper
                     className='swiperBOxOngoing'
                     spaceBetween={40}
                     slidesPerView={3}
@@ -29,47 +29,47 @@ export default function OnGoingPro() {
                     loop={true}
                 >
                     <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBoxOngoing">
+                        <div className="ProjectBox">
                             <img src={p1} alt="" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBoxOngoing">
+                        <div className="ProjectBox">
                             <img src={p2} alt="" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBoxOngoing">
+                        <div className="ProjectBox">
                             <img src={p3} alt="" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBoxOngoing">
+                        <div className="ProjectBox">
                             <img src={p1} alt="" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBoxOngoing">
+                        <div className="ProjectBox">
                             <img src={p2} alt="" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBoxOngoing">
+                        <div className="ProjectBox">
                             <img src={p3} alt="" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBoxOngoing">
+                        <div className="ProjectBox">
                             <img src={p2} alt="" />
                         </div>
                     </SwiperSlide>
 
 
-                </Swiper>
+                </Swiper> */}
 
                 <h1>Past Projects</h1>
 
-                <ImagSlider />
+                <ImagSlider/>
 
                 <div class="container">
                     <div class="box">
@@ -146,9 +146,9 @@ export default function OnGoingPro() {
                     </div>
                 </div>
 
-                <br />
-                <br />
-                <br />
+                <br/>
+                <br/>
+                <br/>
 
 
                 <div className="showCaseSection">
@@ -158,10 +158,10 @@ export default function OnGoingPro() {
                         </div>
                         <div className="discription">
                             <h1>Technology Stack</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae eos labore? Nisi ab accusamus quidem molestiae cupiditate, ullam illo ut consequuntur a alias quasi, tenetur voluptas, temporibus blanditiis ea? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae omnis quos itaque dicta aperiam nobis, harum nihil voluptas totam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate sint unde dolore facilis, saepe nobis totam vel. Cum, autem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae eos labore? Nisi ab accusamus quidem molestiae cupiditate, ullam illo ut consequuntur a alias quasi, tenetur voluptas, temporibus blanditiis ea? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae omnis quos itaque dicta aperiam nobis, harum nihil voluptas totam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate sint unde dolore facilis, saepe nobis totam vel. Cum, autem!</p>   
                             <div className="button">
-                                <button class="button-17">Read More</button>
-                            </div>
+                            <button class="button-17">Read More</button>
+                         </div>                        
                         </div>
                     </div>
                 </div>
@@ -173,10 +173,10 @@ export default function OnGoingPro() {
                         </div>
                         <div className="discription">
                             <h1>Technology Stack</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae eos labore? Nisi ab accusamus quidem molestiae cupiditate, ullam illo ut consequuntur a alias quasi, tenetur voluptas, temporibus blanditiis ea? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae omnis quos itaque dicta aperiam nobis, harum nihil voluptas totam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate sint unde dolore facilis, saepe nobis totam vel. Cum, autem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae eos labore? Nisi ab accusamus quidem molestiae cupiditate, ullam illo ut consequuntur a alias quasi, tenetur voluptas, temporibus blanditiis ea? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae omnis quos itaque dicta aperiam nobis, harum nihil voluptas totam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate sint unde dolore facilis, saepe nobis totam vel. Cum, autem!</p>   
                             <div className="button">
-                                <button class="button-17">Read More</button>
-                            </div>
+                            <button class="button-17">Read More</button>
+                         </div>                        
                         </div>
                     </div>
                 </div>
