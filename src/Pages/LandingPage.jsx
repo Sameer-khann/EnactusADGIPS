@@ -72,10 +72,10 @@ export default function LandingPage({ link1 }) {
       </div>
 
       <div className="bg-black bg-opacity-40 p-4">
-        <ImageCarousel heading="On Going Projects" 
-           link1={ongoing1}
-           link2={ongoing3}
-           link3={ongoing2}
+        <ImageCarousel  heading="On Going Projects"
+          link1={ongoing1}
+          link2={ongoing3}
+          link3={ongoing2}
         />
         <ImageCarousel
           heading="Our Previous Projects"
@@ -92,13 +92,13 @@ export default function LandingPage({ link1 }) {
           link3={council3}
           link4={council4}
         />
-        <ImageCarousel heading="Our Heads and Team" 
-           link1={head1}
-           link2={head2}
-           link3={head3}
-           link4={head4}
-           link5={head5}
-        
+        <ImageCarousel heading="Our Heads and Team"
+          link1={head1}
+          link2={head2}
+          link3={head3}
+          link4={head4}
+          link5={head5}
+
         />
       </div>
 

@@ -19,8 +19,14 @@ body {
     margin-top: 5%;
 }
 
-.swiper {
-  width: 100%;
+#landingpageSlider{
+  height: 400px;
+  width: 400px;
+}
+
+#mySwiper {
+  height: 550px;
+  width: 900px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -29,8 +35,8 @@ body {
   background-position: center;
   background-size: cover;
   /* width: 300px; */
-  min-width: 180px;
-  /* height: 250px; */
+  width: 180px;
+  height: 250px;
 }
 
 .swiper-slide img {
