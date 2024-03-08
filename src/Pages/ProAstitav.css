@@ -1,0 +1,186 @@
+.ProjeactAstitav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.astitavLogo {
+    width: 200px;
+    height: 200px;
+}
+
+.astitavLogo img {
+    width: 100%;
+}
+
+.headingAstitav h1 {
+    font-size: 2rem;
+    color: #f3ba00;
+
+}
+
+.headingAstitav p {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #0B4619;
+}
+
+.paraAstitav {
+    padding: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.AstitavCards {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.cardAsti {
+
+    background-color: #f3ba00a6;
+    color: white;
+    height: 370px;
+    width: 200px;
+    border-radius: 2rem;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cardAsti:hover {
+    background-color: #f3ba00;
+}
+
+.cardAsti h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #0B4619;
+}
+
+.cardAsti p {
+    font-size: 1.1rem;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.cardAsti span {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.cardAsti span:hover {
+    color: rgb(58, 97, 0);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.curve {
+    background-image: url(../img/sv.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.teamAstitav {
+    height: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0B4619;
+    color: white;
+}
+
+
+.teamMemberAstitav {
+    color: white;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.teamMemberAstitav h1 {
+    color: white;
+    text-align: center;
+}
+
+.teamMemberAstitav h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+.teamDiscription {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.imgSectionOFTeam {
+    height: 400px;
+    width: 350px;
+    margin-right: -200px;
+    transition: margin-right 0.5s ease; /* Add transition for smooth movement */
+}
+
+
+
+.imgSectionOFTeam img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.dis {
+    background-color: #f3ba00;
+    width: 500px;
+    padding: 5px;
+    color: white;
+    color: #0B4619;
+    margin-left: -240px;
+    text-align: center;
+    transition: margin-left 0.5s ease; /* Add transition for smooth movement */
+}
+
+
+
+
+.dis h1 {
+    color: white;   
+}
+
+
+.dis p {
+    font-size: 1.2rem;
+}
+
+
+.teamDiscription:hover .dis {
+    margin-left: 0px;
+}
+
+.teamDiscription:hover .imgSectionOFTeam {
+    margin-right: 0px;
+}
+
+.endcurve{
+    background-image: url(../img/end.svg);
+    height: 240px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
