@@ -21,14 +21,14 @@ export default function OnGoingPro() {
 
             
 
-                {/* <Swiper
-                    className='swiperBOxOngoing'
+                <Swiper
+                    id='swiperBOxOngoing'
                     spaceBetween={40}
                     slidesPerView={3}
                     centeredSlides
                     loop={true}
                 >
-                    <SwiperSlide className='swiperDiv'>
+                    <SwiperSlide className='swiper-slide'>
                         <div className="ProjectBox">
                             <img src={p1} alt="" />
                         </div>
@@ -65,7 +65,7 @@ export default function OnGoingPro() {
                     </SwiperSlide>
 
 
-                </Swiper> */}
+                </Swiper>
 
                 <h1>Past Projects</h1>
 

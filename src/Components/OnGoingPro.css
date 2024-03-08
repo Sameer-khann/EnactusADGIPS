@@ -47,12 +47,12 @@
   justify-content: center;
 }
 
-.swiper {
+#swiperBOxOngoing {
   width: 80%;
-  padding: 20px !important;
+  padding: 10px !important;
 }
 
-.swiper-slide {
+#swiper-slide-ongoing {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -239,7 +239,7 @@
 }
 
 .imgSection {
-  height: 400px;
+  height: 380px;
   width: 350px;
   overflow: hidden;
   border-radius: 2rem 0rem 0rem 2rem;
@@ -253,7 +253,7 @@
   background-color: #0B4619;
   color: white;
   padding: 20px;
-  height: 360px;
+  height: 380px;
   width: 600px;
   border-radius: 0rem 2rem 2rem 0rem;
   display: flex;

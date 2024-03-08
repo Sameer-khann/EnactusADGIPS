@@ -14,7 +14,7 @@ export default function ProAstitav() {
         </div>
         <div className="headingAstitav">
           <h1>Welcome to</h1>
-          <p>INITIATIVE ASTITVA</p>
+          <div id='headAstitav'>INITIATIVE ASTITVA</div>
         </div>
         <p className='paraAstitav'>Astitva is an initiative taken to provide a platform to empower various stakeholders highly concerned about the social evils of the society. It can help in creating a sense of awareness among individuals and organizations about current challenges faced by our society. It provides an opportunity for Enactus ADGITM itself to be involved in identification of social problems at ground level. It is an umbrella project with various sub - projects :</p>
 
