@@ -9,22 +9,44 @@ export default function Footer() {
                     <div class="main-logo1"></div>
                     <div class="main-logo2"></div>
                 </div>
+                <div class="feature">
+                    <h3>Features</h3>
+                    <div class="content">
+                        <div class="home">
+                            <a href="https://enactusadgitm.in/">Home</a>
+                        </div>
+                        <div class="about">
+                            <a href="#">About</a>
+                        </div>
+                        <div class="store">
+                            <a href="https://darpan.enactusadgitm.in/">Store</a>
+                        </div>
+                        <div class="projects">
+                            <a href="https://enactusadgitm.in/projects">
+                                Projects
+                            </a>
+                        </div>
+                        <div class="Team">
+                            <a href="#">Team</a>
+                        </div>
+                        <div class="events">
+                            <a href="#">Events</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="first">
                     <div class="heading">Connect With Us</div>
                     <div class="socials">
                         <a
                             href="https://www.linkedin.com/company/enactus-adgitm"
-                            target="_main"
                             class="firstlogo"
                         ></a>
                         <a
                             href="https://www.instagram.com/enactus.adgitm/"
-                            target="_main"
                             class="secondlogo"
                         ></a>
                         <a
                             href="https://twitter.com/adgitmenactus"
-                            target="_main"
                             class="thirdlogo"
                         ></a>
                     </div>
