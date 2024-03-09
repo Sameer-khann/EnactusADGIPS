@@ -31,21 +31,21 @@
 .firstlogo {
     height: 60%;
     width: 20%;
-    background-image: url("1test.jpg");
+    background-image: url("../img/1test.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .secondlogo {
     height: 60%;
     width: 20%;
-    background-image: url("2test.jpg");
+    background-image: url("../img/2test.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .thirdlogo {
     height: 60%;
     width: 20%;
-    background-image: url("3test.jpg");
+    background-image: url("../img/3test.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -114,14 +114,14 @@
 .main-logo1 {
     height: 100px;
     width: 100px;
-    background-image: url("logo1.jpg");
+    background-image: url("../img/logo1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .main-logo2 {
     height: 200px;
     width: 170px;
-    background-image: url("logo2.png");
+    background-image: url("../img/logo2.png");
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
