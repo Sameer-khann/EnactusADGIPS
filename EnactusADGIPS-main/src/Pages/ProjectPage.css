@@ -1,0 +1,45 @@
+
+  .hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.484)), url('../img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center; /* Center align text */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    flex-direction: column;
+  }
+  
+  .hero-section h1 {
+    color: #ffffff;
+    font-size: 5rem; /* Change this to desired text color */
+  }
+  
+  .hero-section p {
+    color: #e5e5e5; /* Change this to desired text color */
+  }
+  
+  .buttom-hero {
+    margin-top: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;/* Adjust margin as needed */
+  }
+  
+  .buttom-hero  {
+    background-color: #007bff; /* Change this to desired button background color */
+    color: #fff; /* Change this to desired button text color */
+    border: none;
+    width: 200px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
+    cursor: pointer;
+  }
+  
+  .buttom-hero :hover {
+    background-color: #0056b3; /* Change this to desired button hover background color */
+  }
+  
