@@ -3,7 +3,7 @@ import img1 from '../img/Wallpaper.png'
 import img2 from '../img/wallpaperflare.com_wallpaper.jpg'
 import React, { useState, useRef } from 'react';
 
-export default function TeamPage(slides) {
+export default function TeamPage() {
 
   const [slideIndex, setSlideIndex] = useState(0);
   const slideRef = useRef(null);
