@@ -1,10 +1,11 @@
 import React from "react";
+import './LandingPage.css';
 import prev1 from "../img/pastproject1.png";
 import prev2 from "../img/pastproject2.jpg";
 import prev3 from "../img/pastproject3.jpg";
 import prev4 from "../img/pastproject4.jpg";
 import prev5 from "../img/pastproject5.jpg";
-import mainlogo from "../img/main-logo3.png";
+import mainlogo from "../img/encatus.png";
 
 import council1 from "../img/council1.jpg";
 import council2 from "../img/council2.jpg";
@@ -28,27 +29,21 @@ import ImageCarousel from "../Components/ImageCarousel";
 export default function LandingPage({ link1 }) {
   return (
     <div>
-      <div className="flex  gap-0 w-100 h-96  mt-0">
-        {/* Left Side */}
-        <div className="w-1/2  flex justify-center bg-yellow-100 items-center">
-          {/* Text content */}
-          <div className="p-4">
-            <h2 className="text-3xl font-bold mb-4">Enactus ADGIPS</h2>
-            <p className="text-gray-600">
+     <div className="landingpage">
+      <div className="contentLandingPage">
+            <h1>Enactus ADGIPS</h1>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-          </div>
-        </div>
-
-        <div className="w-1/2 flex justify-center bg-green-300 items-center">
-          <div className="p-4 flex justify-center items-center">
-            <img src={mainlogo} alt="Placeholder" className="w-96 h-96" />
-          </div>
-        </div>
       </div>
+      <div className="landingPageImg">
+        <img src={mainlogo} alt="" />
+      </div>
+
+     </div>
 
       <div className="mt-0 mb-0 w-full bg-green-500 rounded-lg">
         <div className="container flex flex-col items-center justify-center  p-8  mt-8 ">

@@ -1,0 +1,28 @@
+.landingpage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+    position: relative;
+    right: 0;
+}
+
+.contentLandingPage{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 700px;
+}
+
+.contentLandingPage h1{
+    font-size: 5rem;
+    color: rgb(0, 122, 82);
+}
+
+.landingPageImg{
+    position: absolute;
+    top: 0;
+    right: 6%;
+    width: 600px;
+}

@@ -3,6 +3,7 @@ import './ProjectPage.css';
 import OnGoingPro from '../Components/OnGoingPro';
 import ProAstitav from './ProAstitav';
 import ProMritkala from './ProMritkala';
+import Gutargun from './Gutargun';
 
 
 export default function ProjectPage() {
@@ -20,6 +21,7 @@ export default function ProjectPage() {
       <OnGoingPro/>
       <ProAstitav/>
       <ProMritkala/>
+      <Gutargun/>
     </div>
   )
 }

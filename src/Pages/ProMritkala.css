@@ -28,13 +28,13 @@
 
 }
 
-.aboutMritkala h1{
+.aboutMritkala h1 {
     font-size: 3rem;
-    color:#0B4619;
+    color: #0B4619;
     text-align: center;
 }
 
-.aboutMritkala p{
+.aboutMritkala p {
     padding: 0 40px;
     font-size: 1.2rem;
     text-align: center;
@@ -50,8 +50,8 @@
 }
 
 
-.imgSectionMritkala{
-    background-image:linear-gradient(#0b46193b,#0b461942), url(../img/TulsiPot1.413c2e69.png);
+.imgSectionMritkala {
+    background-image: linear-gradient(#0b46193b, #0b461942), url(../img/TulsiPot1.413c2e69.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,34 +63,35 @@
     justify-content: center;
 }
 
-.imgSectionMritkala h1{
+.imgSectionMritkala h1 {
     font-family: "Protest Revolution", sans-serif;
     text-shadow: 8px 1px 10px rgb(0, 0, 0);
-    font-size:9rem;
+    font-size: 9rem;
     color: #FFCC1D;
 }
 
-.productSectionMritkala{
+.productSectionMritkala {
     padding: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
- 
-  
+
+
 
 }
 
-.productSectionMritkala h1{
+.productSectionMritkala h1 {
     color: #0B4619;
 }
-.productSectionMritkala p{
+
+.productSectionMritkala p {
     color: #0B4619;
     padding: 30px;
     font-size: 1.2rem;
     text-align: center;
 }
 
-.ProductImgMritkala{
+.ProductImgMritkala {
     margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -103,21 +104,106 @@
 .ProductImgMritkala img {
     width: 400px;
     height: 280px;
-    transition: transform 0.9s ease; /* Smooth transition for the transform property */
+    transition: transform 0.9s ease;
+    /* Smooth transition for the transform property */
 }
 
-.ProductImgMritkala img:hover{
+.ProductImgMritkala img:hover {
     transform: scale(1.4);
-    width: 400px; /* Apply the scale transformation on hover */
+    width: 400px;
+    /* Apply the scale transformation on hover */
 }
 
-.linkMritkala{
+.linkMritkala {
     cursor: pointer;
     font-weight: 500;
 }
 
-.linkMritkala:hover{
+.linkMritkala:hover {
     color: red;
     cursor: pointer;
     font-weight: 500;
 }
+
+.communityMritkala {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.communitySection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.communityContent {
+    width: 400px;
+}
+
+.communityContent p {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.commnityImg {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.commnityImg img {
+    width: 100%;
+}
+
+.OUR-INVOLVEMENT {
+    margin-top: 50px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.OUR-INVOLVEMENT p {
+    padding: 40px;
+}
+
+.ProjectHeadMritkala {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.ProhjectHeadImg {
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+
+.ProhjectHeadImg img{
+    border-radius: 2rem;
+}
+
+.positionHead {
+    bottom: 12%;
+    right: -10%;
+    border: 5px solid #ececec;
+    background-color: #FFCC1D;
+    border-radius: 2rem;
+    position: absolute;
+}
+.positionHead  h1{
+    font-size: 2rem;
+}
+
+.aboutHead {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.aboutHead p {}
