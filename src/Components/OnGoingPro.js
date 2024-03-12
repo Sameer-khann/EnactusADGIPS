@@ -4,6 +4,8 @@ import p1 from "../img/p1.png"
 import p2 from "../img/pic.png"
 import p3 from "../img/p3.png"
 import proimg from "../img/p3.png"
+import { Link } from 'react-router-dom'; 
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -19,9 +21,54 @@ export default function OnGoingPro() {
             <div className="OngoingProject">
                 <h1>On Going Projects</h1>
 
-            
+                <div class="container">
+                    <Link to="/Mritkala">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src={p1} alt='' />
+                        </div>
+                        <div class="content">
+                            <div>
+                                <h2>Mritkala</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </Link>
+                    <Link to="/astitav">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src={p1} alt='' />
+                        </div>
+                        <div class="content">
+                            <div>
+                                <h2>Astitav</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </Link>
+                    <Link to="/gutargun">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src={p1} alt='' />
+                        </div>
+                        <div class="content">
+                            <div>
+                                <h2>Guturgun</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </Link>
+                   
+                </div>
 
-                <Swiper
+
+                {/* <Swiper
                     id='swiperBOxOngoing'
                     spaceBetween={40}
                     slidesPerView={3}
@@ -43,109 +90,14 @@ export default function OnGoingPro() {
                             <img src={p3} alt="" />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBox">
-                            <img src={p1} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBox">
-                            <img src={p2} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBox">
-                            <img src={p3} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='swiperDiv'>
-                        <div className="ProjectBox">
-                            <img src={p2} alt="" />
-                        </div>
-                    </SwiperSlide>
-
-
-                </Swiper>
+                    
+                </Swiper> */}
 
                 <h1>Past Projects</h1>
 
                 <ImagSlider/>
 
-                <div class="container">
-                    <div class="box">
-                        <div class="imgBx">
-                            <img src={p1} alt='' />
-                        </div>
-                        <div class="content">
-                            <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="imgBx">
-                            <img src={p1} alt='' />
-                        </div>
-                        <div class="content">
-                            <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="imgBx">
-                            <img src={p1} alt='' />
-                        </div>
-                        <div class="content">
-                            <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="imgBx">
-                            <img src={p1} alt='' />
-                        </div>
-                        <div class="content">
-                            <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="imgBx">
-                            <img src={p1} alt='' />
-                        </div>
-                        <div class="content">
-                            <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="imgBx">
-                            <img src={p1} alt='' />
-                        </div>
-                        <div class="content">
-                            <div>
-                                <h2>Image Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+               
                 <br/>
                 <br/>
                 <br/>

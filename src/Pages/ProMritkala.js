@@ -13,11 +13,11 @@ export default function ProMritkala() {
     return (
         <>
             <div className="proMritkala">
-                <div className="mritkalaLogo">
+                <div className="mritkalaLogo ">
                     <img src={mrit} alt="" />
                 </div>
                 <div className="aboutMritkala">
-                    <div className="imgAbout">
+                    <div className="imgAbout floatingM">
                         <img src={aboutImg} alt="" />
                     </div>
                     <div>

@@ -9,6 +9,9 @@ import Navbar from '../src/Components/Navbar.js';
 import Footer from '../src/Components/Footer.js';
 
 import './App.css';
+import ProMritkala from './Pages/ProMritkala.js';
+import ProAstitav from './Pages/ProAstitav.js';
+import Gutargun from './Pages/Gutargun.js';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
           <Route path="/EventPage" element={<EventPage />} />
           <Route path="/TeamPage" element={<TeamPage />} /> 
           <Route path="/ProjectPage" element={<ProjectPage/>} />
+          <Route path="/Mritkala" element={<ProMritkala/>} />
+          <Route path="/astitav" element={<ProAstitav/>} />
+          <Route path="/gutargun" element={<Gutargun/>} />
         </Routes>
         <Footer/>
       </Router>

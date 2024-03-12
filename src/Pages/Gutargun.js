@@ -11,7 +11,7 @@ export default function Gutargun() {
             <img src={logoGutargun} alt="" />
         </div> */}
                 <h1>GUTARGU</h1>
-                <p>Sub Project ofInitiative Astitva</p>
+                <p>Sub Project of Initiative Astitva</p>
 
                 <div className="magazinSection">
                     <h1>EXCLUSIVE MAGAZINES</h1>

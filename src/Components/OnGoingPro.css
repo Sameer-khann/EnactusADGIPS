@@ -108,7 +108,7 @@
 }
 
 .container .box:hover {
-  transform: rotateY(0deg) scale(1.25);
+  transform: rotateY(0deg) scale(1.1);
   z-index: 1;
   box-shadow: 0 25px 40px rgba(88, 88, 88, 0.5);
 }
@@ -128,7 +128,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgb(176, 29, 0), #000);
+  background: linear-gradient(180deg, aqua, #000);
   z-index: 1;
   opacity: 0;
   transition: 0.5s;
@@ -156,9 +156,17 @@
   height: 100%;
   z-index: 1;
   display: flex;
+  align-items: center;
+  justify-content: end;
   padding: 20px;
   align-items: flex-end;
   box-sizing: border-box;
+  opacity: 0; /* Hide content by default */
+  transition: opacity 0.5s;
+}
+
+.container .box:hover .content {
+  opacity: 1; /* Show content on hover */
 }
 
 .container .box .content h2 {
@@ -186,6 +194,7 @@
 .container .box:hover .content p {
   transform: translateY(0px);
 }
+
 
 
 .past {}

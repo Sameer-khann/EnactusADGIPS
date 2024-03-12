@@ -29,24 +29,24 @@ import ImageCarousel from "../Components/ImageCarousel";
 export default function LandingPage({ link1 }) {
   return (
     <div>
-     <div className="landingpage">
-      <div className="contentLandingPage">
-            <h1>Enactus ADGIPS</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-      </div>
-      <div className="landingPageImg">
-        <img src={mainlogo} alt="" />
+      <div className="landingpage">
+        <div className="contentLandingPage">
+          <h1>Enactus ADGIPS</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div className="landingPageImg floating">
+          <img src={mainlogo} alt="" />
+        </div>
+
       </div>
 
-     </div>
-
-      <div className="mt-0 mb-0 w-full bg-green-500 rounded-lg">
-        <div className="container flex flex-col items-center justify-center  p-8  mt-8 ">
+      <div className="mt-0 mb-0 w-full  rounded-lg" style={{backgroundColor:"aquamarine"}}>
+        <div className="container flex flex-col items-center justify-center  p-8  mt-0 ">
           <h1 className="text-3xl font-bold mb-4 ">Who are we?</h1>
           <ul className=" text-center mt-8">
             <li className="font-bold">ENTREPRENEURIAL</li>
@@ -66,8 +66,8 @@ export default function LandingPage({ link1 }) {
         </div>
       </div>
 
-      <div className="bg-black bg-opacity-40 p-4">
-        <ImageCarousel  heading="On Going Projects"
+      <div className="bg-white bg-opacity-20 p-4">
+        <ImageCarousel heading="On Going Projects"
           link1={ongoing1}
           link2={ongoing3}
           link3={ongoing2}

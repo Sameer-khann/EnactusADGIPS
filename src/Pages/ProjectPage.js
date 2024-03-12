@@ -11,7 +11,7 @@ export default function ProjectPage() {
     <div>
       <div className="hero-section">
         <div>
-        <h1>Welcome to Our Website</h1>
+        <h1>Welcome to Enactus Projects</h1>
         <p>This is a hero section. You can add a brief description or call-to-action here.</p>
         </div>
         <div>
@@ -19,9 +19,6 @@ export default function ProjectPage() {
         </div>
       </div>
       <OnGoingPro/>
-      <ProAstitav/>
-      <ProMritkala/>
-      <Gutargun/>
     </div>
   )
 }

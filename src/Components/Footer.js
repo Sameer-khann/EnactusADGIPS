@@ -4,66 +4,67 @@ import "./Footer.css"
 export default function Footer() {
     return (
         <div>
-            <div class="footer">
-                <div class="second">
-                    <div class="main-logo1"></div>
-                    <div class="main-logo2"></div>
+            <div className="footer">
+                <div className="second">
+                    <div className="main-logo1"></div>
+                    <div className="main-logo2"></div>
                 </div>
-                <div class="feature">
-                    <h3>Features</h3>
-                    <div class="content">
-                        <div class="home">
+                <div className="feature">
+                    <h1>Features</h1>
+                    <div className="content">
+                        <div className="home">
                             <a href="https://enactusadgitm.in/">Home</a>
                         </div>
-                        <div class="about">
+                        <div className="about">
                             <a href="#">About</a>
                         </div>
-                        <div class="store">
+                        <div className="store">
                             <a href="https://darpan.enactusadgitm.in/">Store</a>
                         </div>
-                        <div class="projects">
+                        <div className="projects">
                             <a href="https://enactusadgitm.in/projects">
                                 Projects
                             </a>
                         </div>
-                        <div class="Team">
+                        <div className="Team">
                             <a href="#">Team</a>
                         </div>
-                        <div class="events">
+                        <div className="events">
                             <a href="#">Events</a>
                         </div>
                     </div>
                 </div>
-                <div class="first">
-                    <div class="heading">Connect With Us</div>
-                    <div class="socials">
+                <div className="first">
+                    <h1>Connect With Us</h1>
+                    <div className="socials">
                         <a
                             href="https://www.linkedin.com/company/enactus-adgitm"
-                            class="firstlogo"
+                            className="firstlogo"
                         ></a>
                         <a
                             href="https://www.instagram.com/enactus.adgitm/"
-                            class="secondlogo"
+                            className="secondlogo"
                         ></a>
                         <a
                             href="https://twitter.com/adgitmenactus"
-                            class="thirdlogo"
+                            className="thirdlogo"
                         ></a>
                     </div>
-                    <div class="email">
-                        <div class="c1">enactusadgitm@gmail.com</div>
+                    <div className="email">
+                        <div className="c1">enactusadgitm@gmail.com</div>
                     </div>
-                    <div class="address">
-                        <div class="c2">
-                            FC-26, Panduk Shila Marg, Zero Pusta Rd, Shastri
-                            Park, Shahdara, New Delhi, Delhi-110053
+                    <div className="address">
+                        <div className="c2">
+                            <p>  FC-26, Panduk Shila Marg, Zero Pusta Rd, Shastri
+                            Park, Shahdara, New Delhi, Delhi-110053</p>
+                          
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="copyright">
-                <div class="l1">Enactus ADGITM © 2024</div>
-                <div class="l2">All Rights Reserved</div>
+            <div className="copyright">
+                <div className="l1">Enactus ADGITM © 2024</div>
+                <div className="l2">All Rights Reserved</div>
             </div>
         </div>
     )

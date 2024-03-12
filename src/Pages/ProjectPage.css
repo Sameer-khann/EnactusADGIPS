@@ -1,6 +1,6 @@
 
   .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.475), rgba(0, 0, 0, 0.484)), url('../img/img1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.619), rgba(0, 0, 0, 0.669)), url('../img/img1.jpg');
     background-size: cover;
     background-position: center;
     padding: 50px; /* Adjust padding as needed */
@@ -14,7 +14,7 @@
   }
   
   .hero-section h1 {
-    color: #ffffff;
+    color: rgb(0, 255, 170);
     font-size: 5rem; /* Change this to desired text color */
   }
   

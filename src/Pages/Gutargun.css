@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 70px;
 }
 
 .Gutargun h1 {
@@ -17,7 +18,7 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 70px;
 }
 
 .magazinSection h1 {
@@ -44,6 +45,7 @@
 }
 
 .discriptionMagazin {
+    padding: 30px;
     display: flex;
     align-items: start;
     flex-direction: column;
