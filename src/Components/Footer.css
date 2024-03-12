@@ -21,11 +21,11 @@
     background-repeat: no-repeat;
 }
 .logo1 {
-    background-image: url("logo1.jpg");
+    background-image: url("../img/logo1.jpg");
 }
 .logo2 {
     width: 40%;
-    background-image: url("logo2.png");
+    background-image: url("../img/logo2.png");
 }
 .section-2 {
     height: 100%;
@@ -86,21 +86,21 @@
 .insta {
     height: 50%;
     width: 18%;
-    background-image: url("2test.jpg");
+    background-image: url("../img/2test.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .linkdn {
     height: 50%;
     width: 18%;
-    background-image: url("1test.jpg");
+    background-image: url("../img/1test.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .twitter {
     height: 50%;
     width: 18%;
-    background-image: url("3test.jpg");
+    background-image: url("../img/3test.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
