@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  
-  
+    
 }
 hr{
   width: 80vw;
@@ -24,13 +23,18 @@ h1 {
   justify-content: center;
   font-size: 40px;
   padding:10px;
-  font-family: Nunito;
+  font-family: condensed;
   font-size: 50px;
+}
+
+.main_pic_frame{
+  overflow: hidden;
 }
 
 .main_photo{
   display:flex;
-  animation: photo 30s infinite; 
+  animation: pic 10s infinite; 
+  animation-play-state: running;
 
 }
 .main_photo img{
@@ -38,17 +42,37 @@ h1 {
   width:100vw;
 }
 
-@keyframes photo{
+@keyframes pic{
 0%{
   transform:translateX(0);
 }
-25%{
+10%{
+  transform:translateX(0);
+}
+20%{
+  transform:translateX(0);
+}
+30%{
+  transform:translateX(-100vw);
+}
+40%{
   transform:translateX(-100vw);
 }
 50%{
+  transform:translateX(-100vw);
+}
+60%{
   transform:translateX(-200vw);
 }
-
+70%{
+  transform:translateX(-200vw);
+}
+80%{
+  transform:translateX(-200vw);
+}
+90%{
+  transform:translateX(-300vw);
+}
 100%{
   transform:translateX(-300vw);
 }
@@ -59,6 +83,11 @@ span{
   justify-content: center;
   align-items:center;
   flex-direction: column;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 2px rgba(36, 53, 36, 0.351);
+  background-image: linear-gradient(to top, rgba(2, 89, 2, 0.815), rgba(0, 128, 0, 0.211));
+
 }
 
 span:hover{
@@ -70,6 +99,8 @@ span:hover{
   border-radius: 100%;
   box-shadow: 10px 10px 10px rgb(83, 80, 80);
   margin-bottom:10px;
+  height:200px;
+  width: 200px;
 }
 
 .grid{
@@ -77,8 +108,8 @@ span:hover{
   justify-content: space-around;
   padding-top: 30px;
   padding-bottom: 60px;
-  padding-right:150px;
-  padding-left: 150px;
+  padding-right:100px;
+  padding-left: 100px;
 }
 
 .grid span h2{
@@ -103,44 +134,43 @@ span:hover{
   justify-content: space-around;
 }
 
-
-
 .slider-container {
-  width: 80%;
-  margin: 0 auto;
-  overflow: hidden;
   position: relative;
   padding-top:40px;
   padding-bottom: 60px;
+  overflow: hidden;
 }
 .slides {
   display: flex;
+  justify-content: space-around;
   transition: transform 2s ease;
+  width: 100vw;
+  transition:0.5s;
+  margin-right: 100px;
 }
-.slide {
-  min-width: calc(100% / 4); 
-  flex: 1 0 auto;
+
+.item-box{
+  margin-right:20px;
+  margin-left:20px;
+ 
 }
+
 .slide span img {
   width: 200px;
   height: 200px;
 }
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+
+.prev{
+  height:30px;
   z-index: 100;
 }
-.prev {
-  left: 0;
-}
-.next {
-  right: 0;
+.next{
+  height:30px;
+  z-index: 100;
 }
 
+ 
+
+  
 
 
