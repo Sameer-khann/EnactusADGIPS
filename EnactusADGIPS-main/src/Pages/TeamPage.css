@@ -27,14 +27,13 @@ h1 {
   font-size: 50px;
 }
 
-.main_photo_frame{
+.main_pic_frame{
   overflow: hidden;
 }
 
 .main_photo{
   display:flex;
-  animation: photo 20s infinite; 
-  animation-delay: 1s;
+  animation: pic 10s infinite; 
   animation-play-state: running;
 
 }
@@ -43,23 +42,32 @@ h1 {
   width:100vw;
 }
 
-@keyframes photo{
+@keyframes pic{
 0%{
   transform:translateX(0);
 }
-15%{
+10%{
+  transform:translateX(0);
+}
+20%{
   transform:translateX(0);
 }
 30%{
   transform:translateX(-100vw);
 }
-45%{
+40%{
+  transform:translateX(-100vw);
+}
+50%{
   transform:translateX(-100vw);
 }
 60%{
   transform:translateX(-200vw);
 }
-75%{
+70%{
+  transform:translateX(-200vw);
+}
+80%{
   transform:translateX(-200vw);
 }
 90%{
@@ -77,7 +85,9 @@ span{
   flex-direction: column;
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px rgba(36, 53, 36, 0.351);
+  box-shadow: 1px 1px 1px 2px rgba(36, 53, 36, 0.351);
+  background-image: linear-gradient(to top, rgba(2, 89, 2, 0.815), rgba(0, 128, 0, 0.211));
+
 }
 
 span:hover{
@@ -89,6 +99,8 @@ span:hover{
   border-radius: 100%;
   box-shadow: 10px 10px 10px rgb(83, 80, 80);
   margin-bottom:10px;
+  height:200px;
+  width: 200px;
 }
 
 .grid{
@@ -122,23 +134,25 @@ span:hover{
   justify-content: space-around;
 }
 
-
-
 .slider-container {
-  width: 80%;
   position: relative;
   padding-top:40px;
   padding-bottom: 60px;
+  overflow: hidden;
 }
 .slides {
   display: flex;
+  justify-content: space-around;
   transition: transform 2s ease;
-  width: 100vw; 
+  width: 100vw;
+  transition:0.5s;
+  margin-right: 100px;
 }
 
-.slide{
-  margin-left: 40px;
-  margin-right:40px;
+.item-box{
+  margin-right:20px;
+  margin-left:20px;
+ 
 }
 
 .slide span img {
@@ -146,7 +160,18 @@ span:hover{
   height: 200px;
 }
 
+.prev{
+  height:30px;
+  z-index: 100;
+}
+.next{
+  height:30px;
+  z-index: 100;
+}
 
+ 
+
+  
 
 
 
