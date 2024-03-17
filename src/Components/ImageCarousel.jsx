@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+
 import './imageCarousel.css';
-// import { EffectCoverflow, Pagination } from 'swiper';
+
+// import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
-export default function ImageCarousel({ heading, link1, link2, link3, link4, link5 }) {
+export default function ImageCarousel({heading , link1 , link2 , link3 , link4, link5}) {
   return (
     <>
-      <h1 className='heading'>{heading}</h1>
+   
+    <h1 className='heading-land ' >{heading}
+    </h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -19,32 +26,34 @@ export default function ImageCarousel({ heading, link1, link2, link3, link4, lin
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
-          depth: 400,
+          depth: 100,
           modifier: 1,
           slideShadows: true,
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        id="mySwiper"
-        // style={{ height: '400px', width: '100%' }} // Apply inline style to set height and width
+        className="mySwiper"
         initialSlide={2}
       >
-        <SwiperSlide id='landingpageSlider'>
-          <img src={link1} alt="slide1" />
+        <SwiperSlide>
+          <img src={link1} />
         </SwiperSlide>
-        <SwiperSlide id='landingpageSlider'>
-          <img src={link2} alt="slide2" />
+~        <SwiperSlide>
+          <img src={link2} />
         </SwiperSlide>
-        <SwiperSlide id='landingpageSlider'>
-          <img src={link3} alt="slide3" />
+        <SwiperSlide>
+          <img src={link3} />
         </SwiperSlide>
-        <SwiperSlide id='landingpageSlider'>
-          <img src={link4} alt="slide4" />
+        <SwiperSlide>
+          <img src={link4} />
         </SwiperSlide>
-        <SwiperSlide id='landingpageSlider'>
-          <img src={link5} alt="slide5" />
+        <SwiperSlide>
+          <img src={link5} />
         </SwiperSlide>
+     
+       
       </Swiper>
+      
     </>
   );
 }
