@@ -32,6 +32,8 @@ import ongoing3 from "../img/ongoing3.jpg";
 import ImageCarousel from "../Components/ImageCarousel";
 import Teams from "../Components/Teams";
 
+import quote from "../img/quote.png"
+
 export default function LandingPage({ link1 }) {
 
 
@@ -160,9 +162,10 @@ export default function LandingPage({ link1 }) {
         </div>
 
         <div className="mt-24 w-2/3 min-h-72 m-auto p-4 ">
-          <h1 className="font-bold text-3xl text-center">
+          {/* <h1 className="font-bold text-3xl text-center">
             "Quote in favour of enactus and its goals"
-          </h1>
+          </h1> */}
+          <img src={quote} alt="quote in favour of enactus" className="mt-4" />
           <p className="mt-10 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
             consectetur animi voluptatem eum provident amet, quas ratione sunt
