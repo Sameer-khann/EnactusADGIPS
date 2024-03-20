@@ -113,11 +113,11 @@ export default function TeamPage() {
           <div className='info'>this to inform you that you can type any kind of text here</div>
         </span>
       </div>
-      <hr></hr>
-      <div>
+      {/* <hr></hr> */}
+      {/* <div>
         <h1>Here are our diligent department heads</h1>
-      </div>
-      <div className="slider-container">
+      </div> */}
+      {/* <div className="slider-container">
         <button type="button"  onClick={slideRight}>❮</button>
         <div className="slides">
           <div className="item-box">
@@ -186,7 +186,7 @@ export default function TeamPage() {
           </div>
         </div>
         <button type="button" onClick={slideLeft}>❯</button>
-      </div>
+      </div> */}
       <hr></hr>
       <div>
         <h1>Here are the previous council members</h1>

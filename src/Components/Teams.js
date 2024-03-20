@@ -59,7 +59,7 @@ export default function Teams({heading}) {
             <div
               key={index}
               className="item card border-0 py-2 mx-2"
-              style={{ width: 330 }}
+              style={{ width: 330, height: 370}}
             >
               <img
                 src={member.image}

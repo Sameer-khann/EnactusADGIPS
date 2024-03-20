@@ -22,7 +22,7 @@ export default function ImageCarousel({heading , link1 , link2 , link3 , link4, 
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={'auto'}
+        slidesPerView={3}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -30,7 +30,7 @@ export default function ImageCarousel({heading , link1 , link2 , link3 , link4, 
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
+        pagination={false}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
         initialSlide={2}
