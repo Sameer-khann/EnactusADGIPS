@@ -60,9 +60,9 @@ export default function LandingPage({ link1 }) {
     };
 
     // Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_USER_ID' with your actual values
-    const serviceID = 'service_2uzc75j';
-    const templateID = 'template_4r24u3k';
-    const userID = 'XjcSC4PzoNt-2Mpka';
+    const serviceID = '';
+    const templateID = '';
+    const userID = '';
 
 
     // Send the email

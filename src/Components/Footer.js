@@ -64,7 +64,7 @@ export default function Footer() {
             </div>
             <div className="copyright">
                 <div className="l1">Enactus ADGITM © 2024</div>
-                <div className="l2">All Rights Reserved</div>
+                <div className="l2"> All Rights Reserved</div>
             </div>
         </div>
     )
