@@ -50,4 +50,5 @@
 }
 .content a:hover {
     color: grey;
+    font-weight: bold;
 }
