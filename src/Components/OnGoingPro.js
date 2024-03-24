@@ -111,7 +111,7 @@ export default function OnGoingPro() {
                         <div className="discription">
                             <h1>Technology Stack</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae eos labore? Nisi ab accusamus quidem molestiae cupiditate, ullam illo ut consequuntur a alias quasi, tenetur voluptas, temporibus blanditiis ea? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae omnis quos itaque dicta aperiam nobis, harum nihil voluptas totam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto cupiditate sint unde dolore facilis, saepe nobis totam vel. Cum, autem!</p>   
-                            <div className="button">
+                            <div className="Showbutton">
                             <button class="button-17">Read More</button>
                          </div>                        
                         </div>

@@ -26,8 +26,8 @@ export default function ProAstitav() {
             <div className="cardAsti">
               <h1>GUTARGU</h1>
               <p>Gutargu is a social awareness publication which enlightens the reader about the uprising social stigmas and initiatives taken by the government and individuals to encounter them.</p>
-              <Link to="/gutargun">
-              <span>check it out &rarr;</span>
+              <Link style={{textDecoration:"none"}} to="/gutargun">
+              <p className='cardLink'>check it out &rarr;</p>
               </Link>
             </div>
          
@@ -35,15 +35,15 @@ export default function ProAstitav() {
           <div className="cardAsti">
             <h1>DARPAN</h1>
             <p>Gutargu is a social awareness publication which enlightens the reader about the uprising social stigmas and initiatives taken by the government and individuals to encounter them.</p>
-            <Link to="https://darpan.enactusadgitm.in/" target='blanck'>
-            <span>check it out &rarr;</span>
+            <Link style={{textDecoration:"none"}}  to="https://darpan.enactusadgitm.in/" target='blanck'>
+            <p className='cardLink'>check it out &rarr;</p>
             </Link>
           </div>
           <div className="cardAsti">
             <h1>DHAIRYAM</h1>
             <p>Gutargu is a social awareness publication which enlightens the reader about the uprising social stigmas and initiatives taken by the government and individuals to encounter them.</p>
-            <Link to="/gutargun">
-            <span>check it out &rarr;</span>
+            <Link style={{textDecoration:"none"}}  to="/gutargun">
+            <p className='cardLink'>check it out &rarr;</p>
             </Link>
           </div>
         </div>

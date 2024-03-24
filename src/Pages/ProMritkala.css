@@ -41,8 +41,8 @@
 }
 
 .imgAbout {
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
 }
 
 .imgAbout img {
@@ -208,18 +208,109 @@
 
 
 .floatingM {  
-    animation-name: floating;
-    animation-duration: 3s;
+    animation-name: floatingM;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* margin-left: 30px; */
-    /* margin-top: 5px; */
+    transform-style: preserve-3d; /* Preserve 3D transformations */
 }
 
 @keyframes floatingM {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }    
+    0% { 
+        transform: translate(0, 0px) rotateY(0deg); /* Initial position */
+    }
+    100% { 
+        transform: translate(0, 0px) rotateY(360deg); /* Full rotation */
+    }    
 }
 
+
+
+
 .aboutHead p {}
+
+
+@media screen and (min-width: 280px) and (max-width: 800px) {
+
+    .mritkalaLogo{
+        width: 90vw;
+    }
+    .communityMritkala h1{
+        font-size: 2rem;
+    }
+
+    .aboutHead h1{
+        font-size: 2rem;
+    }
+
+    .imgAbout{
+        width: 90vw;
+        height: auto;
+    }
+    .productSectionMritkala {
+        padding: 10px;
+    }
+    .imgSectionMritkala{
+        width: 100vw;
+        align-items: center;
+    }
+
+    .imgSectionMritkala h1{
+        font-size: 4rem;
+    }
+
+    .ProductImgMritkala{
+        width: 90vw;
+        height:auto ;
+    }
+    .ProductImgMritkala img {
+        width: 90vw;
+        height: auto;
+    }
+    .communitySection{
+        flex-direction: column;
+        width: 90vw;
+        text-align: center;
+    }
+    .ProjectHeadMritkala{
+        align-items: center;
+        flex-direction: column;
+    }
+    .OUR-INVOLVEMENT{
+        text-align: center;
+    }
+    .OUR-INVOLVEMENT h1{
+        font-size: 2rem;
+
+    }
+    .OUR-INVOLVEMENT p{
+        padding: 10px;
+    }
+
+    .commnityImg{
+        width: 90vw;
+        height: auto;
+    }
+    .ProhjectHeadImg {
+        width: 90vw;
+        height: auto;
+    }
+
+    .communityContent{
+        width: 90vw;
+    }
+
+    .positionHead {
+        display: none;
+        bottom: 10%;
+        right: 0%;
+        border: 5px solid #ececec;
+        background-color: #FFCC1D;
+        border-radius: 2rem;
+        position: absolute;
+    }
+    .aboutHead{
+        width: 90vw;
+    }
+}
+

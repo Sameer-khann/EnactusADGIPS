@@ -1,6 +1,6 @@
 
   .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.619), rgba(0, 0, 0, 0.669)), url('../img/img1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.619), rgba(0, 0, 0, 0.769)), url('../img/img1.jpg');
     background-size: cover;
     background-position: center;
     padding: 50px; /* Adjust padding as needed */
@@ -8,7 +8,7 @@
     height: 80vh;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     gap: 50px;
     flex-direction: column;
   }
@@ -41,5 +41,22 @@
   
   .buttom-hero :hover {
     background-color: #0056b3; /* Change this to desired button hover background color */
+  }
+
+
+  @media screen and (min-width: 280px) and (max-width: 400px){
+    .hero-section h1 {
+      color: rgb(0, 255, 170);
+      font-size: 1rem; 
+      height: auto;/* Change this to desired text color */
+    }
+  }
+  
+  @media screen and (min-width: 400px) and (max-width: 600px) {
+    .hero-section h1 {
+      color: rgb(0, 255, 170);
+      font-size: 3.4rem; 
+      height: auto;/* Change this to desired text color */
+    }
   }
   

@@ -11,7 +11,7 @@ export default function Teams({heading}) {
   return (
     <section>
       <div className="team pt-5">
-        <p className="h1 text-center mb-4 pb-2 font-weight-600 text-white">
+        <p className="h1 text-center mb-4 pb-2 font-weight-600 text-black">
          {heading}{" "}
         </p>
         <OwlCarousel
@@ -45,7 +45,7 @@ export default function Teams({heading}) {
       </div>
 
       <div className="team pt-5">
-        <p className="h1 text-center mb-4 pb-2 font-weight-600 text-white">Our Team</p>
+        <p className="h1 text-center mb-4 pb-2 font-weight-600 text-black">Our Team</p>
         <OwlCarousel
           autoWidth
           lazyContent
