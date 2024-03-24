@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Router>
-      {/* <Navbar/> */}
+      <Navbar/>
         {/* <ScrollToTop/> */}
         <Routes>
            <Route path="/" element={<LandingPage/>} />
