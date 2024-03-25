@@ -9,7 +9,7 @@
     justify-content: space-around;
     /* background-color: aquamarine; */
     background: whitesmoke;
-    background: linear-gradient(90deg, rgba(220, 247, 113, 1) 0%, rgba(32, 128, 0, 1) 100%);
+    background: rgba(170, 255, 232, .384);
     position: relative;
     right: 0;
 }
@@ -57,11 +57,11 @@
 }
 
 .HomeWh0WeAre {
-    background-color: greenyellow;
+    background-color: rgba(170, 255, 232, 0.687);
 }
 
 .HomeCarousel {
-    background-color: whitesmoke;
+    background-color: rgba(170, 255, 232, .384);
     color: #000000;
 }
 

@@ -15,6 +15,7 @@ export default function Teams({heading}) {
          {heading}{" "}
         </p>
         <OwlCarousel
+
           autoWidth
           lazyContent
           loop={true}
@@ -23,6 +24,7 @@ export default function Teams({heading}) {
           center={true}
           items
           className="hero-carousel"
+          dotsClass={{display:"none"}}
         >
           {councilList.map((member, index) => (
             <div
