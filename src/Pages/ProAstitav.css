@@ -17,9 +17,8 @@
     width: 100%;
 }
 
-.headingAstitav{
+.headingAstitav {}
 
-}
 .headingAstitav h1 {
     font-size: 2rem;
     color: #f3ba00;
@@ -29,7 +28,7 @@
 #headAstitav {
     font-size: 5rem;
     font-weight: 300;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #0B4619;
 }
 
@@ -52,7 +51,7 @@
     height: 400px;
     width: 280px;
     border-radius: 2rem;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,13 +77,17 @@
     font-weight: 400;
 }
 
-.cardAsti span {
+.cardAsti .cardLink {
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+
     color: white;
     font-size: 1.2rem;
     cursor: pointer;
 }
 
-.cardAsti span:hover {
+.cardAsti .cardLink:hover {
     color: rgb(58, 97, 0);
     font-size: 1.2rem;
     cursor: pointer;
@@ -126,6 +129,7 @@
     color: white;
     text-align: center;
 }
+
 .teamDiscription {
     color: white;
     display: flex;
@@ -139,7 +143,8 @@
     height: 400px;
     width: 350px;
     margin-right: -200px;
-    transition: margin-right 0.5s ease; /* Add transition for smooth movement */
+    transition: margin-right 0.5s ease;
+    /* Add transition for smooth movement */
 }
 
 
@@ -157,14 +162,15 @@
     color: #0B4619;
     margin-left: -240px;
     text-align: center;
-    transition: margin-left 0.5s ease; /* Add transition for smooth movement */
+    transition: margin-left 0.5s ease;
+    /* Add transition for smooth movement */
 }
 
 
 
 
 .dis h1 {
-    color: white;   
+    color: white;
 }
 
 
@@ -181,11 +187,56 @@
     margin-right: 0px;
 }
 
-.endcurve{
+.endcurve {
     background-image: url(../img/end.svg);
     height: 240px;
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 800px) {
+
+    #headAstitav {
+        text-align: center;
+    }
+
+    .AstitavCards {
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .teamAstitav{
+        height: auto;
+        gap: 20px;
+        display: flex;
+    }
+
+    .teamDiscription{
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+
+    .imgSectionOFTeam img {
+        border-radius: 0rem;
+    }
+
+    .imgSectionOFTeam{
+        border-radius: 0;
+        margin: 0;
+        width: 90vw;
+        height: auto;
+    }
+    .dis{
+        margin: 0;
+        width: 90vw;
+        height: auto;
+    }
 }

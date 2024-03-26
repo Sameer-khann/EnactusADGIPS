@@ -38,7 +38,7 @@ export default function ImageCarousel({heading , link1 , link2 , link3 , link4, 
         <SwiperSlide>
           <img src={link1} />
         </SwiperSlide>
-~        <SwiperSlide>
+      <SwiperSlide>
           <img src={link2} />
         </SwiperSlide>
         <SwiperSlide>

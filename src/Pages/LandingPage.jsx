@@ -157,25 +157,24 @@ export default function LandingPage({ link1 }) {
           link5={head5}
 
         /> */}
-        </div>
-
-        <div className="mt-24 w-2/3 min-h-72 m-auto p-4 ">
-          {/* <h1 className="font-bold text-3xl text-center">
-            "Quote in favour of enactus and its goals"
-          </h1> */}
+        
+        <div className="EnactusQuote mt-24 w-2/3 min-h-72 m-auto p-4 ">
           <img src={quote} alt="quote in favour of enactus" className="mt-4" />
-          <p className="mt-10 text-center w-full">
+          <p className="mt-10 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
             consectetur animi voluptatem eum provident amet, quas ratione sunt
             beatae eius nostrum eaque fugiat labore earum Lorem, ipsum dolor sit
             amet consectetur adipisicing elit. Incidunt ipsam impedit saepe
             sapiente alias illo necessitatibus reiciendis odio, repellat
-            voluptatem modi quia ullam quae iure, deserunt similique ipsum?
-            Earum laboriosam laudantium esse ex. Earum quod, consequatur
-            quisquam quas quos natus? Velit expedita adipisci delectus voluptate
-            in ab et soluta similique..
+            voluptatem modi quia ullam quae iure, deserunt similique ipsum? Earum
+            laboriosam laudantium esse ex. Earum quod, consequatur quisquam quas
+            quos natus? Velit expedita adipisci delectus voluptate in ab et soluta
+            similique..
           </p>
         </div>
+
+
+
       </div>
       <div className="CuerySEC">
         <div className="Queary">

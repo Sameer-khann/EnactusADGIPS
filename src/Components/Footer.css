@@ -12,6 +12,7 @@
     display: flex;
     gap: 10px;
 }
+
 .main-logo1 {
     height: 100px;
     width: 100px;
@@ -27,7 +28,7 @@
     background-image: url("../img/logo2.png");
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 }
 
 .feature {
@@ -57,8 +58,9 @@
 }
 
 .content a:hover {
-    color: rgb(255, 255, 255);
+    color: blue;
 }
+
 
 .first {
     width: 400px;
@@ -75,17 +77,20 @@
 
 
 .socials {
-    height: 100px;
-    width: 300px;
+    height: 70px;
+    width: 200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .firstlogo a {
     height: 100%;
     width: 100%;
 }
+
 .firstlogo {
+    filter: invert(100%);
     height: 60%;
     width: 20%;
     background-image: url("../img/1test.jpg");
@@ -93,6 +98,7 @@
     background-repeat: no-repeat;
 
 }
+
 .secondlogo {
     height: 60%;
     width: 20%;
@@ -101,6 +107,7 @@
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
 }
+
 .thirdlogo {
     height: 60%;
     width: 20%;
@@ -120,15 +127,50 @@
     gap: 10px;
 }
 
-.address .c2 p{
-   
+.address .c2 p {
+
     font-size: 1.2rem;
 }
 
 .c1 {
-    
+
     font-size: 1.3rem;
     font-weight: 500;
+}
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 800px) {
+
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .first {
+        width: 90vw;
+    }
+
+    .address {
+        width: 90vw;
+    }
+
+    .c1 {
+
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .main-logo1{
+        width: 90px;
+        height: 90px;
+    }
+    .main-logo2{
+        width: 90px;
+        height: 90px;
+    }
+
 }
 
 /* .first {

@@ -157,12 +157,14 @@
   padding: 20px;
   align-items: flex-end;
   box-sizing: border-box;
-  opacity: 0; /* Hide content by default */
+  opacity: 0;
+  /* Hide content by default */
   transition: opacity 0.5s;
 }
 
 .container .box:hover .content {
-  opacity: 1; /* Show content on hover */
+  opacity: 1;
+  /* Show content on hover */
 }
 
 .container .box .content h2 {

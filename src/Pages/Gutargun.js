@@ -23,7 +23,7 @@ export default function Gutargun() {
                             <h3>22 August </h3>
                             <h1>The Silent Pendimic</h1>
                             <p>An oxymoron which became our reality and changed the world in an unprecedented way. What once were loud and roaring streets, now became deadly silent. Lockdown has been – and continues to be – a very challenging period for many of us, but it has also forced us to prioritize our mental and physical health.Shedding light on how India as a country, crossed all the hurdles laid in its path, we, Enactus ADGITM, present to you, the fourth edition of Gutargu: THE SILENT PANDEMONIUM</p>
-                            <span>Read More</span>
+                            <h4>Read More</h4>
                         </div>
                     </div>
             
@@ -35,7 +35,7 @@ export default function Gutargun() {
                             <h3>22 August </h3>
                             <h1>The Silent Pendimic</h1>
                             <p>An oxymoron which became our reality and changed the world in an unprecedented way. What once were loud and roaring streets, now became deadly silent. Lockdown has been – and continues to be – a very challenging period for many of us, but it has also forced us to prioritize our mental and physical health.Shedding light on how India as a country, crossed all the hurdles laid in its path, we, Enactus ADGITM, present to you, the fourth edition of Gutargu: THE SILENT PANDEMONIUM</p>
-                            <span>Read More</span>
+                            <h4>Read More</h4>
                         </div>
                     </div>
             
@@ -47,7 +47,7 @@ export default function Gutargun() {
                             <h3>22 August </h3>
                             <h1>The Silent Pendimic</h1>
                             <p>An oxymoron which became our reality and changed the world in an unprecedented way. What once were loud and roaring streets, now became deadly silent. Lockdown has been – and continues to be – a very challenging period for many of us, but it has also forced us to prioritize our mental and physical health.Shedding light on how India as a country, crossed all the hurdles laid in its path, we, Enactus ADGITM, present to you, the fourth edition of Gutargu: THE SILENT PANDEMONIUM</p>
-                            <span>Read More</span>
+                            <h4>Read More</h4>
                         </div>
                     </div>
             
@@ -59,7 +59,7 @@ export default function Gutargun() {
                             <h3>22 August </h3>
                             <h1>The Silent Pendimic</h1>
                             <p>An oxymoron which became our reality and changed the world in an unprecedented way. What once were loud and roaring streets, now became deadly silent. Lockdown has been – and continues to be – a very challenging period for many of us, but it has also forced us to prioritize our mental and physical health.Shedding light on how India as a country, crossed all the hurdles laid in its path, we, Enactus ADGITM, present to you, the fourth edition of Gutargu: THE SILENT PANDEMONIUM</p>
-                            <span>Read More</span>
+                            <h4>Read More</h4>
                         </div>
                     </div>
             
