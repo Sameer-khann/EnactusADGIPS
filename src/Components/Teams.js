@@ -1,4 +1,5 @@
 import React from "react";
+import './Teams.css'
 import OwlCarousel from "react-owl-carousel";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -14,7 +15,7 @@ export default function Teams({heading}) {
         <p className="h1 text-center mb-4 pb-2 font-weight-600 text-black">
          {heading}{" "}
         </p>
-        <OwlCarousel
+        <OwlCarousel 
 
           autoWidth
           lazyContent
@@ -29,7 +30,7 @@ export default function Teams({heading}) {
           {councilList.map((member, index) => (
             <div
               key={index}
-              className="item card border-0 py-2 mx-2"
+              className=" TeamsCards item card border-0 py-2 mx-2"
               style={{ width: 330 }}
             >
               <img

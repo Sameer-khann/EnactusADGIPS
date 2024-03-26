@@ -62,6 +62,7 @@
 
 .HomeCarousel {
     background-color: rgba(170, 255, 232, .384);
+    /* background-color: rgba(170, 255, 232, .384); */
     color: #000000;
 }
 
@@ -73,6 +74,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    background-color: rgb(181, 247, 225);
 }
 
 .Queary {
@@ -151,3 +153,7 @@ textarea {
 .contactbtn:hover {
     background-color: #002348;
 }
+
+/* .EnactusQuote{
+    background-color: #e8a6a6;
+} */
