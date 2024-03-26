@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-import emailjs from 'emailjs-com';
-
-
+import emailjs from "emailjs-com";
 
 import "./LandingPage.css";
 import prev1 from "../img/pastproject1.png";
@@ -32,18 +30,12 @@ import ongoing3 from "../img/ongoing3.jpg";
 import ImageCarousel from "../Components/ImageCarousel";
 import Teams from "../Components/Teams";
 
-import quote from "../img/quote.png"
+import quote from "../img/quote.png";
 
 export default function LandingPage({ link1 }) {
-
-
-
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-
-
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -62,30 +54,29 @@ export default function LandingPage({ link1 }) {
     };
 
     // Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_USER_ID' with your actual values
-    const serviceID = '';
-    const templateID = '';
-    const userID = '';
-
+    const serviceID = "";
+    const templateID = "";
+    const userID = "";
 
     // Send the email
-    emailjs.send(serviceID, templateID, templateParams, userID)
+    emailjs
+      .send(serviceID, templateID, templateParams, userID)
       .then((response) => {
-        console.log('Email sent successfully!', response);
+        console.log("Email sent successfully!", response);
         // Use toast to show a success message
         toast.success("Send Successfully!", { position: "top-center" });
       })
       .catch((error) => {
-        console.error('Error sending email:', error);
+        console.error("Error sending email:", error);
         // Use toast.error to show an error message
         toast.error("Error sending email", { position: "top-center" });
       });
 
     // Reset the form fields
-    setName('');
-    setEmail('');
-    setMessage('');
+    setName("");
+    setEmail("");
+    setMessage("");
   };
-
 
   return (
     <>
@@ -95,13 +86,13 @@ export default function LandingPage({ link1 }) {
             <h1>Enactus ADGIPS</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
           <div className="landingPageImg floating">
-            <img src={mainlogo} alt="" />
+            <img className="landingpageimg" src={mainlogo} alt="logo" />
           </div>
         </div>
 
@@ -109,18 +100,25 @@ export default function LandingPage({ link1 }) {
           <div className="container flex flex-col items-center justify-center  p-8  mt-0 ">
             <h1 className="text-3xl font-bold mb-4 ">Who are we?</h1>
             <ul className=" text-center mt-8">
-              <li className="font-bold"><h5>ENTREPRENEURIAL</h5></li>
+              <li className="font-bold">
+                <h5>ENTREPRENEURIAL</h5>
+              </li>
               <li className="mb-2">
                 initiating business innovation with integrity and passion
               </li>
-              <li className="font-bold"> <h5>ACTION</h5></li>
+              <li className="font-bold">
+                {" "}
+                <h5>ACTION</h5>
+              </li>
               <li className="mb-2">
                 The experience of social impact that sparks social enterprise
               </li>
-              <li className="font-bold"><h5>US</h5></li>
+              <li className="font-bold">
+                <h5>US</h5>
+              </li>
               <li className="mb-2">
-                Students, academic and business leaders collaborating to create a
-                better world
+                Students, academic and business leaders collaborating to create
+                a better world
               </li>
             </ul>
           </div>
@@ -166,21 +164,18 @@ export default function LandingPage({ link1 }) {
             "Quote in favour of enactus and its goals"
           </h1> */}
           <img src={quote} alt="quote in favour of enactus" className="mt-4" />
-          <p className="mt-10 text-center">
+          <p className="mt-10 text-center w-full">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
             consectetur animi voluptatem eum provident amet, quas ratione sunt
             beatae eius nostrum eaque fugiat labore earum Lorem, ipsum dolor sit
             amet consectetur adipisicing elit. Incidunt ipsam impedit saepe
             sapiente alias illo necessitatibus reiciendis odio, repellat
-            voluptatem modi quia ullam quae iure, deserunt similique ipsum? Earum
-            laboriosam laudantium esse ex. Earum quod, consequatur quisquam quas
-            quos natus? Velit expedita adipisci delectus voluptate in ab et soluta
-            similique..
+            voluptatem modi quia ullam quae iure, deserunt similique ipsum?
+            Earum laboriosam laudantium esse ex. Earum quod, consequatur
+            quisquam quas quos natus? Velit expedita adipisci delectus voluptate
+            in ab et soluta similique..
           </p>
         </div>
-
-
-
       </div>
       <div className="CuerySEC">
         <div className="Queary">
@@ -197,7 +192,7 @@ export default function LandingPage({ link1 }) {
                   type="text"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  placeholder='Name'
+                  placeholder="Name"
                 />
 
                 <p className="formContact">Enter your e-mail:</p>
@@ -205,29 +200,28 @@ export default function LandingPage({ link1 }) {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder='E-mail'
+                  placeholder="E-mail"
                 />
 
                 <p className="formContact">Write your suggestion/query:</p>
                 <textarea
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  cols="20" rows="4"
-                  placeholder='Description'
+                  cols="20"
+                  rows="4"
+                  placeholder="Description"
                 />
-
               </div>
 
               <div className="buttonSubmit">
-                <div type="submit" className='contactbtn'>Submit</div>
+                <div type="submit" className="contactbtn">
+                  Submit
+                </div>
               </div>
-
             </form>
           </div>
         </div>
       </div>
-
     </>
-
   );
 }
