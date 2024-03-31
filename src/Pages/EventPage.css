@@ -1,17 +1,20 @@
 header {
-    background-color: #275fa3;
-    color: #fff;
-    padding: 1px;
-    text-align: center;
-    background-image: linear-gradient(to bottom,
-        rgb(255 255 0 / 50%),
-        rgb(0 0 255 / 50%)), url("../img/c2.jpg");
-  }
+  background-color: #275fa3;
+  color: #fff;
+  padding: 1px;
+  text-align: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(255 255 0 / 50%),
+      rgb(0 0 255 / 50%)
+    ),
+    url("../img/c2.jpg");
+}
 .EventPagemain {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color:#92a3c5 ;
+  background-color: #92a3c5;
 }
 
 .card-container {
@@ -24,7 +27,7 @@ header {
 
 .card {
   width: 400px;
-  background-color: #638bdd;
+  /* background-color: #638bdd; */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 10px 20px;
@@ -57,38 +60,36 @@ header {
 }
 
 .image {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-  .overlay {
-    position: absolute;
-    top: 70%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent black background */
-    padding: 20px;
-    color: #fff;
-    text-align: center;
-
-  }
-  .overlay h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-
-  .overlay p {
-    margin: 10px 0;
-    font-size: 1.2rem;
-  
-  }
-  .extra-content {
+.overlay {
+  position: absolute;
+  top: 70%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black background */
+  padding: 20px;
+  color: #fff;
   text-align: center;
-  }
+}
+.overlay h1 {
+  margin: 0;
+  font-size: 2rem;
+}
 
-  .image-container {
+.overlay p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+.extra-content {
+  text-align: center;
+}
+
+.image-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -96,29 +97,28 @@ header {
 }
 
 .image-container img {
-  margin: 5px; 
-  width: 405px; 
-  height: auto; 
+  margin: 5px;
+  width: 405px;
+  height: auto;
 }
-
 
 .styled-button {
-background-color: #dbb727; /* Green */
-border: none;
-color: rgb(15, 14, 14);
-padding: 9px 15px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-border-radius: 18px;
+  background-color: #dbb727; /* Green */
+  border: none;
+  color: rgb(15, 14, 14);
+  padding: 9px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 18px;
 }
 .styled-button:hover {
-background-color: #5e33ad; 
+  background-color: #5e33ad;
 }
 
 .styled-button:active {
-background-color: #2f1682;
+  background-color: #2f1682;
 }
