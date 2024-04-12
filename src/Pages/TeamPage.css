@@ -78,7 +78,7 @@ h1 {
 }
 }
 
-span {
+/* span {
   display: flex;
   justify-content: center;
   align-items:center;
@@ -95,7 +95,7 @@ span {
 span:hover{
  transform: scale(1.1);
   transition-duration: 300ms;
-}
+} */
 
 .main{
   border-radius: 100%;

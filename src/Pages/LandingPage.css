@@ -9,11 +9,7 @@
   justify-content: space-around;
   /* background-color: aquamarine; */
   background: rgb(220, 247, 113);
-  background: linear-gradient(
-    90deg,
-    rgba(220, 247, 113, 1) 0%,
-    rgba(32, 128, 0, 1) 100%
-  );
+  background: rgba(0, 255, 255, 0.084);
   position: relative;
   right: 0;
 }
@@ -61,11 +57,11 @@
 }
 
 .HomeWh0WeAre {
-  background-color: greenyellow;
+  background-color: rgb(213, 200, 255);
 }
 
 .HomeCarousel {
-  background-color: green;
+  background-color: rgba(141, 168, 255, 0.212);
 }
 
 .CuerySEC {
